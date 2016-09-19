@@ -6,4 +6,6 @@ This app picks a random story from its story-files and asks the user to fill-in 
 words before showing the completed story to the user.
 
 ## Screenshot
-![doc/pset2_1.jpg]()
+![screenshot1](doc/pset2_1.jpg)
+![screenshot2](doc/pset2_2.jpg)
+![screenshot3](doc/pset2_3.jpg)
