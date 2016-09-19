@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mad Libs</string>
+    <string name="show_text_title">Your Mad Libs Story</string>
+    <string name="fill_fields_title">Fill these fields</string>
+    <string name="main_menu_text">You give me the words and I\'ll give you the story!</string>
+    <string name="show_text_error">Something went wrong while displaying the text. Please try again.</string>
+    <string name="start_button">Start</string>
+    <string name="finish_button">Finish</string>
+    <string name="restart_button">Restart</string>
+    <string name="not_filled_message">You didn\'t fill all the fields</string>
+</resources>

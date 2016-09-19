@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dasyel.dasyelwillems_pset2.ShowTextActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/show_text_title"
+        android:id="@+id/showTextTitleView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:textSize="30sp"
+        android:textIsSelectable="false"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="@string/restart_button"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:id="@+id/startOverButton"
+        android:onClick="restart" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/show_text_error"
+        android:id="@+id/finalTextView"
+        android:layout_below="@+id/showTextTitleView"
+        android:layout_above="@id/startOverButton"
+        android:textSize="20sp" />
+
+</RelativeLayout>
